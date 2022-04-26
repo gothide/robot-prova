@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#game-main {
+    background-color: blue;
+    /* border: none;
+    box-sizing:border-box */
+    /*display: flex;*/
+    margin: 150px auto;
+    width: 528px;
+    height: 481px;
+}
+
+
+#game {
+    background-color: green;
+    gap: 0.5rem;
+    height: 82%;
+    /* width: 80%; */
+    margin: 10 auto;
+    aspect-ratio: 1 / 1;
+    
+    margin: 0auto;
+}
+
+
+#cells {
+    height: 100%;
+    width: 100%;
+}
+
+#cells table {
+    justify-content: center;
+}
+
+.singleRow {
+    /* height: 30%;
+    display: flex; */
+}
+
+.singleCell {
+    border: 1px solid black;
+    aspect-ratio: 1 / 1;
+    width: 30%;
+}
+
+
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
