@@ -1,35 +1,33 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 #game-main {
     background-color: blue;
-    /* border: none;
-    box-sizing:border-box */
-    /*display: flex;*/
-    margin: 150px auto;
-    width: 528px;
-    height: 481px;
+    margin: 0px auto;
+    width: 702px;
+    height: 1021px;
 }
+
 
 
 #game {
     background-color: green;
-    gap: 0.5rem;
-    height: 82%;
-    /* width: 80%; */
-    margin: 10 auto;
-    aspect-ratio: 1 / 1;
-    
-    margin: 0auto;
+/*    gap: 0.5rem;*/
+/*    !* height: 82%; *!*/
+/*    !* width: 80%; *!*/
+/*    margin: 10 auto;*/
+/*    aspect-ratio: 1 / 1;*/
+/*    */
+/*    margin: 0auto;*/
 }
 
 
 #cells {
-    height: 100%;
-    width: 100%;
+/*    height: 100%;*/
+/*    width: 100%;*/
 }
 
 #cells table {
@@ -37,19 +35,63 @@
 }
 
 .singleRow {
-    /* height: 30%;
-    display: flex; */
+    width: 100%;
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*    align-content: space-around;*/
+/*    justify-content: center;*/
 }
 
 .singleCell {
     border: 1px solid black;
-    aspect-ratio: 1 / 1;
-    width: 30%;
+/*    aspect-ratio: 1 / 1;*/
+/*}*/
+/*.singleCell >div> img {*/
+/*    justify-content: center;*/
+/*    background-position: center; !* Added *!*/
+/*    background-size: cover; !* Added *!*/
+/*    background-repeat: no-repeat;*/
 }
 
 
-
 table {
-border-collapse: collapse;
-border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+}
+
+#ws-circle {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 724px;
+    display: inline-flex;
+    padding: 0 0 0 318px;
+}
+
+#ws-timer {
+    width: 64px;
+    margin-right: 25px;
+    height: 64px;
+    border-radius: 34px;
+    font-size: 50px;
+    line-height: 63px;
+}
+
+.ws-flag {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    /* background: rgba(255,255,255,0.9); */
+    margin: 13px 4px;
+    border-radius: 20px;
+    font-size: 27px;
+    /* line-height: 31px; */
+    background-color: #83B7FF;
+    color: #fff;
+    /* z-index: 1; */
+    text-align: center;
+    /* background-position: center; */
+    /* background-size: contain; */
+    border: 2px solid #fff;
 }
