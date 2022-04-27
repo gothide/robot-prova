@@ -7,13 +7,13 @@
 #game-main {
     background-color: blue;
     margin: 0px auto;
-    width: 702px;
-    height: 1021px;
+    width: 507px;
+    height: 760px;
 }
 
 
 
-#game {
+#ws-game-table {
     background-color: green;
 /*    gap: 0.5rem;*/
 /*    !* height: 82%; *!*/
@@ -64,29 +64,29 @@ table {
     position: absolute;
     justify-content: center;
     align-items: center;
-    top: 724px;
+    top: 528px;
     display: inline-flex;
-    padding: 0 0 0 318px;
+    padding: 0 0 0 230px;
 }
 
 #ws-timer {
-    width: 64px;
-    margin-right: 25px;
-    height: 64px;
-    border-radius: 34px;
-    font-size: 50px;
-    line-height: 63px;
+    width: 40px;
+    margin-right: 13px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 37px;
+    line-height: 41px;
 }
 
 .ws-flag {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
     /* background: rgba(255,255,255,0.9); */
     margin: 13px 4px;
     border-radius: 20px;
-    font-size: 27px;
-    /* line-height: 31px; */
+    font-size: 20px;
+    line-height: 23px;
     background-color: #83B7FF;
     color: #fff;
     /* z-index: 1; */
@@ -94,4 +94,22 @@ table {
     /* background-position: center; */
     /* background-size: contain; */
     border: 2px solid #fff;
+}
+
+#ws-game-choices {
+    top: 600px;
+    position: absolute;
+    display: inline-flex;
+}
+
+#ws-game-icons {
+    display: flex;
+    margin-left: 26px;
+}
+
+.ws-single-icons {
+    margin: 2px;
+    height: 143px;
+    width: 143px;
+    border: 2px solid black;
 }
