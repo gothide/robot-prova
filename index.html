@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -15,21 +16,21 @@
             <table id="cells">
 
                 <tr class="singleRow">
-                    <td class ="singleCell"><img style="width: 100%" src="img/1.jpg" alt=""></td>
-                    <td class ="singleCell"><img style="width: 100%" src="img/2.jpg" alt=""></td>
-                    <td class ="singleCell"><img style="width: 100%" src="img/3.jpg" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_0" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_1" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_2" alt=""></td>
                 </tr> 
                  
                 <tr class="singleRow"> 
-                    <td class ="singleCell"><img style="width: 100%" src="img/4.jpg" alt=""></td>
-                    <td class ="singleCell"><img style="width: 100%" src="img/5.jpg" alt=""></td>
-                    <td class ="singleCell"><img style="width: 100%" src="img/6.jpg" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_3" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_4" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_5" alt=""></td>
                 </tr> 
  
                 <tr class="singleRow"> 
-                    <td class ="singleCell"><img style="width: 100%" src="img/7.jpg" alt=""></td>
-                    <td class ="singleCell"><img style="width: 100%" src="img/8.jpg" alt=""></td>
-                    <td class ="singleCell"><img style="width: 100%" src="img/9.jpg" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_6" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_7" alt=""></td>
+                    <td class ="singleCell"><img class="ws_img_tabella" style="width: 150px; height: 150px;" id="ws_8" alt=""></td>
                 </tr>
 
         </div>
@@ -45,9 +46,9 @@
         </div>
         <div id="ws-game-choices">
             <div id="ws-game-icons">
-                <div class="ws-single-icons">ciao</div>
-                <div class="ws-single-icons">questo</div>
-                <div class="ws-single-icons">quello</div>
+                <div class="ws-single-icons" direzione="sinistra"><img src="/img/sinistra.jpeg" alt=""></div>
+                <div class="ws-single-icons" direzione="dritto"><img src="/img/dritto.jpeg" alt=""></div>
+                <div class="ws-single-icons" direzione="destra"><img src="/img/destra.jpeg" alt=""></div>
             </div>
         </div>
 
